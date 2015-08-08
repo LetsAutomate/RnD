@@ -35,7 +35,7 @@ public class DictionaryPage extends PageObject {
     	
     }
     public void lookup_terms() {
-        lookupButton.click();
+        lookupButton.click();  
     }
 
     public List<String> getDefinitions() {

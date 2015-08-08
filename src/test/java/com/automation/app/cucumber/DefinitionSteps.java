@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 
 import com.automation.app.steps.EndUserSteps;
 
-public class DefinitionSteps {
+public class DefinitionSteps {  
 
     @Steps
     EndUserSteps endUser;
