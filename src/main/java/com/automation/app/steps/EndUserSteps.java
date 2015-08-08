@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.hasItem;
 public class EndUserSteps extends ScenarioSteps {  
 
     DictionaryPage dictionaryPage;
-    
+        
     @Step
     public void openURL(String strURL){
     	dictionaryPage.openURL(strURL);
