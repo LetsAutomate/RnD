@@ -18,7 +18,7 @@ import static ch.lambdaj.Lambda.convert;
 public class DictionaryPage extends PageObject {
 
     @FindBy(name="search")
-    private WebElementFacade searchTerms;
+    private WebElementFacade searchTerms;   
 
     @FindBy(name="go")
     private WebElementFacade lookupButton;
